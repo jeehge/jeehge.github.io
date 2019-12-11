@@ -1,7 +1,7 @@
 ---
 title: "스위프트 기초"
 date: 2019-12-11 21:11:40 -0400
-categories: jeehge update
+categories: 졔 update
 ---
 
 
