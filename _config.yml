@@ -21,7 +21,7 @@ title                    : "졔로운블로그"
 title_separator          : "꿈은 높게 과정은 노가다로"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "졔"
-description              : "An amazing website."
+description              : "졔가 공부하는 내용을 기록하는 블로그"
 url                      : "https://jeehge.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -111,27 +111,27 @@ author:
   name             : "졔"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "꿈으 높게 과정은 노가다로"
-  location         : "Somewhere"
+  location         : "Gunpo"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:taerg89@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://blog.naver.com/taerg89"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/jihye.kwon.3551"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/jeehge"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/jeehge/"
 
 # Site Footer
 footer:
