@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "졔로운블로그"
-title_separator          : "꿈은 높게 과정은 노가다로"
+title_separator          : "iOS Developer"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "졔"
 description              : "졔가 공부하는 내용을 기록하는 블로그"
