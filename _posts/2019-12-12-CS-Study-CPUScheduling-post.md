@@ -288,4 +288,4 @@ SJF  |   SRT
 
 
 
-[<img width="100" src="/_image/profile_image.jpg" alt="졔로운블로그">](https://blog.naver.com/taerg89/221732745227)
+[<img width="100" src="/assets/images/avatar.jpg" alt="졔로운블로그">](https://blog.naver.com/taerg89/221732745227)
