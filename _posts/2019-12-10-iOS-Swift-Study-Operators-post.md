@@ -6,7 +6,7 @@ categories: 졔 update
 
 
 # Swift Study
-2019.09.25
+2019.09.25 ~ 2019.12.11
 
 매주 수요일 20:00
 
