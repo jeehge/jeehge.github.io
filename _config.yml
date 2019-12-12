@@ -125,13 +125,13 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/jihye.kwon.3551"
+      # url: "https://www.facebook.com/jihye.kwon.3551"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jeehge"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/jeehge/"
+      # url: "https://www.instagram.com/jeehge/"
 
 # Site Footer
 footer:
