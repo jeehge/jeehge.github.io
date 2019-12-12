@@ -114,7 +114,7 @@ CPU 스케줄링 알고리즘에 따라 실질적으로 영향받는 요소
 
 ### 비선점형 방식
 
-#### FIFO(First Input First Output) == FCFS(First Come First Served)
+## FIFO(First Input First Output) == FCFS(First Come First Served)
 
 `먼저 입력된 작업을 먼저 처리하는 방식으로 가장 간단한 방법`입니다
 
@@ -124,7 +124,7 @@ CPU 스케줄링 알고리즘에 따라 실질적으로 영향받는 요소
 
 짧은 작업이나 중요한 작업을 오랫동안 기다릴 수도 있습니다
 
-#### SJF(Shortest Job First)
+## SJF(Shortest Job First)
 
 `작업이 끝나기까지의 실행 시간이 가장 작은 작업을 먼저 실행시키는 방식`으로 비선점 방식입니다
 
@@ -132,7 +132,7 @@ SJF 스케줄링은 긴(크기가 큰) 작업들을 어느 정도는 희생시�
 
 주의할 점은 긴 작업일지라도 이미 CPU를 점유하고 있다면 뒤로 밀려나지 않고 처리되고 다음 작업들을 대상으로 재정리를 한다는 것입니다 하지만 긴 작업인 경우에는 계속해서 입력되는 짧은 작업들 때문에 우선순위가 계속 밀려나게 되고 무한 연기 상태가 발생하기도 합니다
 
-#### HRN(Highest Response-ratio Next)
+## HRN(Highest Response-ratio Next)
 
 실행 시간 추정과 기능 때문에 스케줄러가 복잡해지고 남은 계산 시간들을 저장해 놓아야 하는 단점을 보완하였으며, `서비스 시간(실행 시간 추정치)과 대기 시간의 비율을 고려한 스케줄링 방법`입니다
 
@@ -142,7 +142,7 @@ SJF 스케줄러에서 발생할 수 있는 무한 연기 현상을 극복하려
 
 우선순위 계산 공식 = (대기시간 + 서비스 시간) / 서비스 시간
 
-#### 우선순위 스케줄링(Priority Scheduling)
+## 우선순위 스케줄링(Priority Scheduling)
 
 `대기 리스트에 있는 프로세스들에게 작업의 우선순위를 부여하여 CPU를 할당하는 방법`입니다
 
@@ -152,7 +152,7 @@ SJF 스케줄링도 작업량이 적은 작업에 우선순위를 부여했으�
 
 동적 우선순위 방식은 구현하기 어렵고 복잡하며 고정적 우선순위보다 오버헤드가 큽니다
 
-#### 기한부(Deadline)
+## 기한부(Deadline)
 
 `제한된 시간 내에 반드시 작업이 완료되도록 스케줄링하는 방식`으로 작업이 완료되는 제한된 시간을 정확히 추정하여 그 시간만큼의 CPU 사용 시간을 제한합니다
 
@@ -164,7 +164,7 @@ SJF나 우선순위 스케줄링에서 발생할 수 있는 무한 연기 상태
 
 ### 선점형 방식
 
-#### RR(Round Robin)
+## RR(Round Robin)
 
 프로세스 스케줄링 방법 중 `시분할 시스템을 위해 고안`되었습니다
 
@@ -174,7 +174,7 @@ SJF나 우선순위 스케줄링에서 발생할 수 있는 무한 연기 상태
 
 할당되는 시간이 클 경우 FIFO 스케줄링과 같아지고 할당되는 시간이 작을 경우 문맥 교환 및 오버헤드가 자주 발생하게 됩니다
 
-#### SRT(Shortest Remaining Time)
+## SRT(Shortest Remaining Time)
 
 비선점 SJF 스케줄링을 선점형으로 변환한 방식입니다
 
@@ -199,13 +199,13 @@ SJF  |   SRT
 응답 시간을 예측할 수 없어 시간 분할 시스템에 적용하기 어려움 | 응답 시간을 예측할 수 있어 시간 분할 시스템에 유용
 
 
-#### 다단계 큐(Multi level Queue)
+## 다단계 큐(Multi level Queue)
 
 선점형, 비선점형 방식
 
 기억 장치 요구량, 프로세스 우선순위, 프로세스 유형과 같은 프로세스들의 특성에 따라 여러 준비 상태 큐 중에서 한곳에 넣고 각 큐마다 고유의 스케줄링 알고리즘을 채택하는 방식입니다
 
-#### 다단계 피드백 큐 스케줄링(Multil evel Feedback Queue , MFQ)
+## 다단계 피드백 큐 스케줄링(Multil evel Feedback Queue , MFQ)
 
 짧은 작업이나 입출력 위주의 작업에 우선권을 부여하기 위해 개발된 방식입니다
 
@@ -226,11 +226,11 @@ SJF  |   SRT
 
 그렇다면 여러 개의 CPU가 있는 다중 처리기 시스템에서의 CPU 스케줄링도 알아봐야 합니다
 
-##### 단일 처리기 시스템(single-processor system)
+### 단일 처리기 시스템(single-processor system)
 
 하나의 CPU를 사용하는 시스템
 
-##### 다중 처리기 시스템(multiprocessor system)
+### 다중 처리기 시스템(multiprocessor system)
 
 여러 개의 CPU를 사용하는 시스템
 
@@ -239,13 +239,13 @@ SJF  |   SRT
 
 다중 처리기 시스템의 형태에 따라
 
-#### 비대칭적 다중 처리(asymmetric multiprocessing, ASMP)
+### 비대칭적 다중 처리(asymmetric multiprocessing, ASMP)
 
 다수의 처리기 중에 master 처리기가 존재 (주인)
 
 나머지 처리기는 master 처리기에 의해 제어됨 (시키는 일 함)
 
-#### 대칭적 다중 처리(symmetric multiprocessing, SMP)
+### 대칭적 다중 처리(symmetric multiprocessing, SMP)
 
 처리기가 평등함 (주종 관계없음)
 
@@ -288,3 +288,5 @@ SJF  |   SRT
 
 
 [졔로운블로그](https://blog.naver.com/taerg89/221732745227)
+
+<img width="100" src="./_image/profile_image.jpg" alt="졔로운블로그">(https://blog.naver.com/taerg89/221732745227)
