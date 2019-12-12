@@ -109,14 +109,14 @@ analytics:
 # Site Author
 author:
   name             : "졔"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/_images/profile_image.jpg"
   bio              : "꿈은 높게 과정은 노가다로"
   location         : "Gunpo"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:taerg89@gmail.com
+      # url: mailto:taerg89@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://blog.naver.com/taerg89"
@@ -141,10 +141,10 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/jihye.kwon.3551"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/jeehge"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -153,7 +153,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/jeehge/"
 
 
 # Reading Files
