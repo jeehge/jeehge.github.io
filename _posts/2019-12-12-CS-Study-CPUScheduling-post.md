@@ -286,3 +286,5 @@ SJF  |   SRT
 
 [CPU 스케줄링](https://frontalnh.github.io/2018/04/03/운영체제-cpu-스케줄링/)
 
+
+[졔로운블로그](https://blog.naver.com/taerg89/221732745227)
