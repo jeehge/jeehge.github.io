@@ -13,7 +13,7 @@ remote_theme : mmistakes/minimal-mistakes
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -141,7 +141,7 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/jihye.kwon.3551"
+      # url: "https://www.facebook.com/jihye.kwon.3551"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jeehge"
@@ -153,7 +153,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/jeehge/"
+      # url: "https://www.instagram.com/jeehge/"
 
 
 # Reading Files
