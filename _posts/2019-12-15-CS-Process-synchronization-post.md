@@ -300,4 +300,4 @@ do {
 
 
 
-[<img width="250" src="/assets/images/avatar.jpg" alt="졔로운블로그">](https://blog.naver.com/taerg89)
+[<img width="250" src="/assets/images/avatar.jpg" alt="졔로운블로그">](https://blog.naver.com/taerg89/221740477712)
