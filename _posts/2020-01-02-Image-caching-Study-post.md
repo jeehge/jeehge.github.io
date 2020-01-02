@@ -69,9 +69,23 @@ categories: 졔 update
 
 <br>
 
-Kingfisher 에는 NSCache 와 FileManager 를 사용한 캐싱을 모두 사용하고 있습니다. FileManager 를 이용한 예제는 찾지 못했고 NSCache에 대한 예제가 있으니 한번 작성해 보겠습니다
+
+Kingfisher에는 NSCache와 FileManager를 사용한 캐싱을 모두 사용하고 있습니다. 갑자기 이미지 캐싱에 대해 알아보다 뜬금없이 NSCache와 FileManager는 왜 튀어나온 걸까요? 이미지 캐싱에는 디스크 캐시(Disk Cache)와 메모리 캐시(Memory Cache) 두 가지가 있습니다. 디스크 캐시와 메모리 캐시에 대해선 아래에서 자세히 알아보도록 하겠습니다.
+
+NSCache는 memory에 저장하는 방식입니다. 
+disk에 저장하는 방식은 FileManager를 사용하여 Cache Directory에 접근하여 자체 디렉터리를 만들어 관리합니다.
 
 
+FileManager를 이용한 예제는 찾지 못했고 NSCache에 대한 예제만 찾았습니다
+
+[NSCache 사용한 예제](https://ontheswift.tistory.com/24)
+
+<br>
+
+*NSCache*에 대한 예제는 위 링크를 참고하여 작성했고, *FileManager*를 이용한 예제는 FileManager를 사용한 캐싱을 찾아보며 제가 NSCache 예제와 비교하기 편하도로 고민하며 작성했습니다.
+분명 부족한 부분이 있을 수 있습니다. 계속 공부 중이고 언제든 업데이트될 수 있으니 참고 부탁드립니다.
+
+[졔가 작성한 예제](https://github.com/jeehge/ImageCache)
 
 
 
