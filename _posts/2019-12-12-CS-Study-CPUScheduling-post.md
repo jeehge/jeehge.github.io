@@ -1,11 +1,11 @@
 ---
-title: "CPU Scheduling"
+title: "CPU 스케줄링"
 date: 2019-12-12 18:31:42 -0400
 categories: 졔 update
 ---
 
 
-### CPU 스케줄링
+### CPU Scheduling
 
 
 와 CS 스터디는 항상 맨땅에 헤딩하는 기분이라 진짜 시작이 반인 듯합니다
