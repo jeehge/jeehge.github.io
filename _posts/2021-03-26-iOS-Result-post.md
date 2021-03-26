@@ -1,3 +1,12 @@
+---
+title: "Result"
+date: 2021-03-26 11:17:10 -0400
+categories: 졔 update
+---
+
+
+### Result
+
 
 Swift5부터 우리는 Result를 사용할 수 있습니다
 
