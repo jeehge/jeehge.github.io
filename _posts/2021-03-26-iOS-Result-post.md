@@ -27,28 +27,31 @@ Swift5부터 우리는 Result를 사용할 수 있습니다
 
 겸사겸사 👀
 
-
-회사에서 스터디도 해야 하고
-
-Result를 한 번 보자!해서 이렇게 Result에 대해 글을 쓰게 되었습니다
+<br>
 
 
+회사에서 스터디도 해야 하고 Result를 한 번 보자!해서 이렇게 Result에 대해 글을 쓰게 되었습니다
+
+<br>
 
 비동기 API 코드를 작성하여 네트워킹을 할 경우 Result 타입을 많이 사용한다고 합니다
 
 
-라고 해서 아래와 같은 코드를 준비한 거지
+라고 해서 아래와 같은 코드를 준비한 거지 비동기 API 코드 외에도 Result를 활용할 수 있습니다 :)
 
-비동기 API 코드 외에도 Result를 활용할 수 있습니다 :)
 
+<br>
 
 우선 옵셔널을 사용한 예제코드를 보겠습니다!
 
 
+```
 func request(then handler: @escaping (Data?, Error?) -> Void) {
     //...
 }
+```
 
+```
 request { (data, error) in
     guard error == nil else { handleError(error!) }
     
@@ -56,16 +59,19 @@ request { (data, error) in
     
     handleData(data)
 }
-내용을 입력하세요.
+```
+
+<br>
+
 여기서 success인 경우 data를 넘겨주고 fail인 경우 data를 nil로 넘겨주도록 만든다고 생각해 봅시다
 
 
 이 경우
-
+<br>
 urlComponent를 정상적으로 잘 생성했는지
-
+<br>
 URLSession 요청이 잘된건지
-
+<br>
 Decoding이 잘못된 건지 알 수 없습니다
 
 
