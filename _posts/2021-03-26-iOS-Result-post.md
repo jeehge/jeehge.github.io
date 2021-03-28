@@ -10,22 +10,20 @@ categories: 졔 update
 
 Swift5부터 우리는 Result를 사용할 수 있습니다
 
-( 👉 https://github.com/apple/swift-evolution/blob/master/proposals/0235-add-result.md)
+(👉 https://github.com/apple/swift-evolution/blob/master/proposals/0235-add-result.md)
 
 
 사실 Result에 대해서 깊게 알아볼 게 무엇이 있을까요?
 
+<br>
 
-저는 누군가
+저는 누군가 이 코드에서 왜 Result를 사용했나요?란 질문에 Result의 강점에 대해 대답하지 못했습니다 ..
 
-이 코드에서 왜 Result를 사용했나요?란 질문에
 
-Result의 강점에 대해 대답하지 못했습니다
 
-심지어 제네릭까지 사용해서 어디서든 가져다 쓸 수 있게 만들어 두곤
+심지어 제네릭까지 사용해서 어디서든 가져다 쓸 수 있게 만들어 두곤 말문이 뙇! 막혀서 아무 말도 못했어서
 
-말문이 뙇! 막혀서 아무 말도 못했어서
-
+<br>
 
 겸사겸사 👀
 
