@@ -68,38 +68,37 @@ URLSession 요청이 잘된건지
 <br>
 Decoding이 잘못된 건지 알 수 없습니다
 
-
+<br>
 
 Swift는 실패 가능한 작업을 처리하기 위해 throws, try, catch를 제공했습니다
 
 하지만!
 
-이 방법으로 여러가지 예외 상황에 대해
+이 방법으로 여러가지 예외 상황에 대해 대처하기 어려웠기 때문에 Swift5에서는 이런 점을 보완해 유연한 처리를 할 수 있도록 Result Type을 제공합니다
 
-대처하기 어려웠기 때문에
-
-Swift5에서는 이런 점을 보완해 유연한 처리를 할 수 있도록 Result Type을 제공합니다
-
+<br>
 
 Result 타입을 사용하는 방법은 어렵지 않습니다
 
 
 Swift의 Result Type은 success와 failure 두 가지 case가 있는 enum입니다
-
+<br>
 둘 다 제네릭을 사용하여 구현되므로 개발자가 정한 타입의 연관값을 가질 수 있습니다
-
+<br>
 하지만 failure의 연관값은 Swift의 Error를 채택해야 합니다 :)
 
-
+```
 enum Result<Success, Failure: Error> { 
 	case success(Success) 
 	case failure(Failure)
 }
-내용을 입력하세요.
+```
+
+<br>
 
 Result를 사용하면
 
-
+```
 func request(then handler: @escaping (Result<Data, SomeError>) -> Void) {
     //...
 }
@@ -113,75 +112,76 @@ request { result in
         // error 처리
     }
 }
-내용을 입력하세요.
-명시적이고 간결하게 에러 처리를 할 수 있습니다
+```
 
+명시적이고 간결하게 에러 처리를 할 수 있습니다
+<br>
 여기서 SomeError은 제가 만든 Error를 채택한 enum입니다
 
+<br>
 
 1. get()
 
 이 메서드는 성공한 값이 있으면 반환하고 그렇지 않으면 에러를 throw합니다
-
+<br>
 일반적인 예외 throw를 사용하고 싶을 때 get()을 사용하면 됩니다
 
+<br>
 
+```
 do {
     let (data, urlResponse) = try result.get()
 		// ...
 } catch let error {
     // error 처리
 }
-내용을 입력하세요.
+```
+
+<br>
 
 2. throwing closure를 받는 초기자
 
-클로저가 값을 성공적으로 반환하면 success case의 연관값으로 저장하고
 
+클로저가 값을 성공적으로 반환하면 success case의 연관값으로 저장하고
+<br>
 그렇지 않으면 throw된 에러를 failure case의 연관값으로 저장합니다
 
 
+```
 let result = Result { try String(contentsOfFile: someFile) }
-내용을 입력하세요.
+```
 
 자 지금까지 Result 타입에 대해서 알아봤습니다 :)
-
+<br>
 그럼 Result의 강점은 무엇이라고 생각하시나요?
 
+<br>
 
 Result를 사용하면 모호한 상태의 처리가 필요없고 꼭 필요한 상태만 처리하면 되니 보다 명시적이고 간결하게 에러처리를 할 수 있습니다
 
-
+<br>
 
 Result에 대해서 알아보려고 열심히 찾아보다가
 
 재미난 것을 찾았습니다
 
-
-
-
-사진 삭제
-사진 설명을 입력하세요.
+<br>
 
 다른 언어를 보면 이미 Result가 있는 언어도 있고 Result와 비슷한 일을 처리하는 것들이 존재합니다
 
 오호!
 
-
+<br>
 
 그럼 Swift의 Result는 다른 언어에서 가져온건가?
 
-
+<br>
 
 
 그러다가
 
 
-antitypical/Result이미지 썸네일 삭제
-antitypical/Result
-Swift type modelling the success/failure of arbitrary operations. - antitypical/Result
 
-github.com
 
 오잉? Result 라이브러리가 있습니다
 
