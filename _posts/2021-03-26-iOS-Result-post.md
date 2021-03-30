@@ -151,6 +151,9 @@ do {
 let result = Result { try String(contentsOfFile: someFile) }
 ```
 
+<br>
+
+
 자 지금까지 Result 타입에 대해서 알아봤습니다 :)
 <br>
 그럼 Result의 강점은 무엇이라고 생각하시나요?
@@ -158,17 +161,15 @@ let result = Result { try String(contentsOfFile: someFile) }
 <br>
 
 Result를 사용하면 모호한 상태의 처리가 필요없고 꼭 필요한 상태만 처리하면 되니 보다 명시적이고 간결하게 에러처리를 할 수 있습니다
-
 <br>
-
 Result에 대해서 알아보려고 열심히 찾아보다가
-
+<br>
 재미난 것을 찾았습니다
 
 <br>
 
 다른 언어를 보면 이미 Result가 있는 언어도 있고 Result와 비슷한 일을 처리하는 것들이 존재합니다
-
+<br>
 오호!
 
 <br>
@@ -180,25 +181,26 @@ Result에 대해서 알아보려고 열심히 찾아보다가
 
 그러다가
 
-
-
+<br>
 
 오잉? Result 라이브러리가 있습니다
-
+<br>
 심지어
-
+<br>
 README.md를 보니! 이번에 추가된 Result 타입과 너무나 비슷하게 생겼습니다
 
+<br>
 
-👀��
+👀
 
+<br>
 
 아무래도 다른 언어에서 잘 사용하는 것을 Swift로 가져오지 않았을까란 생각이 들던 차에
-
-
+<br>
 Alamofire에서도 Result라는 타입을 만들어서 사용했었다는 사실을 듣고!
-
+<br>
 히스토리를 뒤졌습니다 :)
+
 
 
 https://github.com/Alamofire/Alamofire/issues/2752
