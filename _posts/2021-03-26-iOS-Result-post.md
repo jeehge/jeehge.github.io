@@ -254,3 +254,7 @@ Swift화 시켜서 가져왔다고 생각해도 될까요? ��
 
 ** 참고사이트
 
+https://developer.apple.com/documentation/swift/result
+
+https://gaki2745.github.io/ios/2020/04/03/Swift-Basic-12/
+
