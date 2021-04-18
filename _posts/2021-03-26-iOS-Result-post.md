@@ -258,5 +258,3 @@ https://developer.apple.com/documentation/swift/result
 
 https://gaki2745.github.io/ios/2020/04/03/Swift-Basic-12/
 
-test
-
