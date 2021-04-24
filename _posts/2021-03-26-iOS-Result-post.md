@@ -201,7 +201,7 @@ Alamofire에서도 Result라는 타입을 만들어서 사용했었다는 사실
 <br>
 히스토리를 뒤졌습니다 :)
 
-
+<br>
 
 https://github.com/Alamofire/Alamofire/issues/2752
 
@@ -211,7 +211,7 @@ https://github.com/Alamofire/Alamofire/pull/2769
 Swift5에서 Result 타입이 추가되면서 충돌이 생겼고 해당 이슈는 수정되었습니다
 
 
-note.
+### note.
 
 Swift5에서 Result 타입이 생기면서 내부에서 충돌이 생겨서
 
@@ -221,7 +221,7 @@ Result의 기존 확장도 AFResult와 함께 작동하도록 업데이트 되�
 
 또한 Result에 대한 모든 내부 참조가 AFResult에 대한 참조로 대체되었습니다
 
-
+<br>
 
 
 Swift에 Result 타입이 없었지만
@@ -233,11 +233,7 @@ Swift에 Result 타입이 없었지만
 제안 받아서 추가하게 된 겁니다
 
 
-
-
-사진 삭제
-사진 설명을 입력하세요.
-
+<brr>
 
 허허헣...
 
@@ -245,11 +241,11 @@ Swift에 Result 타입이 없었지만
 
 Swift화 시켜서 가져왔다고 생각해도 될까요? ��
 
-
+<br>
 
 생각보다 이것저것 알게되면서 재미난 이야기도 얻은것 같아 뿌듯하네요 :)
 
-
+<br>
 
 
 ** 참고사이트
